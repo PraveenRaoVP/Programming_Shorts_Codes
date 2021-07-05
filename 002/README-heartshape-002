@@ -1,0 +1,23 @@
+A <div> tag in HTML is used to create a division or a section in a document.
+A container can be passed into the <div> tag, which can be styled in a CSS document or a JavaScript document.
+
+ The <body> tag in HTML is used to define the main content present inside an HTML page.
+
+ A helper class in CSS is defined as the class which is used to manipulate or style the existing tags in the website. For example:-
+ p{
+     color: green;
+ }
+ changes the color of the font of the contents of the <p> tag in HTML file into green
+
+ A CSS class is either user defined or a helper class
+ A user defined class is defined as .class_name{
+
+ }
+ In this instance:
+ .heart{
+     background: pink;
+ }
+
+
+ Follow for more!
+#programming #coding #coder #programmer, #html #css #programming_shorts #programmingtutorials #programminghumor #programmingmemes #codingmemes #codingtutorial #codingtutorials #developer #codesnippets #github #git #codingplatform #windows #nvim #neovim #vim 

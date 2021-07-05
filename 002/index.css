@@ -1,0 +1,41 @@
+/*body center alignment*/
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/*heart class*/
+.heart{
+    background: pink;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    transform: rotate(-45deg);
+}
+
+.heart::after{
+    background: inherit;
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    left: 0px;
+    top: -50%;
+    height: 100px;
+    width: 100px;
+}
+
+.heart::before{
+
+    background: inherit;
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    right: -50%;
+    top: 0px;
+    height: 100px;
+    width: 100px;
+}
+

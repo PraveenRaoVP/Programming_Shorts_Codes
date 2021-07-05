@@ -1,0 +1,19 @@
+In Python, we are familiar with the concept of list comprehension, which has the power of assigning values in a list with the use of conditional statements inside the list.
+To declare a normal list, we need atleast 3 lines of code, whereas list comprehension requires only one line to initialize values in the list.
+The syntax for list comprehension:-
+list_name = [iterator for iterator in sequence if condition]
+
+Similarly, dictionary comprehension's syntax is:
+dict_name = {key:value for key,value in sqeuence if condition}
+
+Advantages:-
+    Fewer Lines of code
+    Time and space efficient
+    Filtering is easier
+Disadvantages:-
+    If the condition in which the elements of the list is complex, then the code becomes unreadable
+    Eg: another_list = [(i*7 + 5) % 13 if i%2==0 else (i*5 + 7) % 23 for i in range(k) ]
+
+
+ Follow for more!
+#programming #coding #coder #programmer, #html #css #programming_shorts #programmingtutorials #programminghumor #programmingmemes #codingmemes #codingtutorial #codingtutorials #developer #codesnippets #github #git #codingplatform #windows #nvim #neovim #vim 
