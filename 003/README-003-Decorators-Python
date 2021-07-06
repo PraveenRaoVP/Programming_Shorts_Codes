@@ -1,0 +1,27 @@
+A decorator in Python is a feature which adds functionality to an existing code.
+
+A decorator is equal to assigning a function to a variable and call the variable to access the function
+
+For example:-
+
+def hello(func):
+    print("Hello")
+    return func   #NO ()
+
+@hello
+def greet(name):
+    print(f" {name}")
+
+These statements are equal to 
+def greet(name):
+    print(f" {name}")
+greet = hello(greet)
+
+This will print "Hello {name}" where name is the argument you pass.
+
+Follow for more!
+
+Follow for more!
+#programming #coding #coder #programmer, #html #css #programming_shorts #programmingtutorials #programminghumor #programmingmemes #codingmemes #codingtutorial #codingtutorials #developer #codesnippets #github #git #codingplatform #windows #vim #codes #python #html #css #nodejs #cprogramming #cpp #java #cs #computerscience  
+
+ 

@@ -1,0 +1,23 @@
+Euclidean Algorithm for finding GCD of two numbers is done using a recursive function. 
+The steps for finding the GCD using Euclidean Algorithm are:
+1. Assume there exists two numbers a, b
+2. a mod b = reminder
+3. Let a=b and b=reminder
+4. Repeat the above two steps until a mod b becomes 0
+5. The value of b will be GCD after the 4th step
+
+The implementation of the above steps in recursion is as follows: 
+int gcd(int a, int b){
+    if(b==0)
+        return a;
+    else
+        return gcd(b,a%b);
+}
+
+To avoid these lines of code, C++ has the built-in function __gcd() in the header file <algorithm>.
+
+Eg: cout<<__gcd(18,27); //Output: 9
+
+Follow for more!
+
+#programming #coding #coder #programmer, #html #css #programming_shorts #programmingtutorials #programminghumor #programmingmemes #codingmemes #codingtutorial #codingtutorials #developer #codesnippets #github #git #codingplatform #windows #vim #codes #python #html #css #nodejs #cprogramming #cpp #java #cs #computerscience  
