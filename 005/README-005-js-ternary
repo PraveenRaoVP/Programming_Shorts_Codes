@@ -1,0 +1,12 @@
+Ternary operators are operators which are used to check for conditions and manipulate data like in conditinal statements
+Ternary operators exist in various other programming languages,
+like in C:-
+
+a>b?a=1:b=1;
+
+Or like in Python:-
+
+ print ("Both a and b are equal" if a == b else "a is greater than b"
+        if a > b else "b is greater than a")
+
+Ternary operators are used to shorten the lines of code for simple conditional statements

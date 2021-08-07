@@ -1,0 +1,19 @@
+LEGB stands for Local, Enclosed, Global, Built-in Scope
+These are scope resolutions which play an important role in accessibility of variables, methods etc.
+
+Eg.
+a=10
+def foo():
+    b=1
+
+Here a is a global variable, and b is a local variable.
+
+Eg.
+from math import pi
+pi=3.14
+
+Here pi from the math module comes under built-in scope, whereas pi=3.14 comes under global variable
+
+Enclosed, or nonlocal scope is an enhanced version of global which is used in nested structures, which gets its value from the parent function.
+
+
